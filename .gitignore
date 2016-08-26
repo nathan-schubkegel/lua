@@ -1,3 +1,20 @@
 _*
 .DS_Store
 
+#ignore vim backup files
+*~
+
+#ignore vs files
+*.user
+*.suo
+*.ncb
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+#winmerge
+*.bak
+
+# ???
+*.aps
