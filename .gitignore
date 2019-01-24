@@ -18,3 +18,13 @@ _*
 
 # ???
 *.aps
+
+#ignore cmake auto-generated stuff
+CMakeFiles/
+/Makefile
+/CMakeCache.txt
+/cmake_install.cmake
+/CPackConfig.cmake
+/CPackSourceConfig.cmake
+/luaconf.h
+/liblua.a
